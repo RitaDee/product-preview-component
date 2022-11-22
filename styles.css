@@ -138,7 +138,7 @@ ul {
 }
 
 
-@media (min-width: 640px) {
+@media (min-width: 300px) {
     .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -154,6 +154,7 @@ ul {
 
         picture img {
             height: 100%;
+            min-width: 100%;
         }
                 .text {
                     border-radius: 0 0.625rem 0.625rem 0;
